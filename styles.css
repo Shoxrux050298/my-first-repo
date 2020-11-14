@@ -1,0 +1,201 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	font-size: "", sans-serif;
+	background-color: #F7CD75;
+	font-family: "Roboto", sans-serif;
+}
+
+.main-box {
+	display: flex;
+	background-color: white;
+	width: 1200px;
+	height: 600px;
+	margin: 200px auto;
+	padding: 0;
+}
+
+.left-box {
+	margin: 0;
+	padding: 25px;
+	background-color: #F2F2F2;
+	width: 350px;
+/*	height: 600px;*/
+	overflow: hidden;
+}
+
+.header-left-box {
+	display: flex;
+}
+
+.btn {
+	border: none;
+	margin: 0;
+	padding: 10px;
+	margin-left: 100px;
+	font-size: 30px;
+}
+
+.btn:active {
+	border: 1px solid grey;
+}
+
+.left-box:hover {
+	overflow: auto;
+}
+
+.current-balance1 {
+	font-size: 28px;
+}
+
+.card-box {
+	margin: 50px 0;
+	width: 280px;
+	/*margin-bottom: 40px;*/
+	padding-top: 15px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	border: 1px solid lightgrey;
+	border-radius: 5px;
+
+}
+
+.logo-cards {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 20px;
+}
+
+
+.cards-name1 {
+	font-size: 18px;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 5px;
+	color: #8B929B;
+}
+
+.cards-name2 {
+	font-size: 15px;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 5px;
+	color: #8B929B;
+}
+
+.right-box {
+	display: flex;
+	width: 850px;
+	overflow: hidden;
+	margin: 0;
+	padding: 10px 20px;
+
+}
+
+.header-right-box {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 30px 20px;
+}
+
+hr {
+	width: 800px;
+	height: 1px;
+	border-radius: 1px;
+	background-color: lightgrey;
+	border: none;
+}
+
+.current-balance {
+	font-size: 28px;
+	width: 300px;
+}
+
+.balance {
+	font-weight: bold;
+	font-size: 28px;
+	margin-left: 500px;
+}
+
+.data-made {
+	color: grey;
+}
+
+
+.information-about-device {
+	width: 500px;
+}
+
+/*.price-device::before {
+	display: inline-block;
+	content: "";
+	border: 1px solid red;
+	border-right: 50%;
+}
+*/
+
+.right-box:hover {
+	overflow: auto;
+}
+
+.prices-box {
+	position: relative;
+	top: -620px;
+	right: -650px;
+	display: flex;
+	flex-direction: column;
+	margin-top: 130px;
+	margin-right: 200px;
+	font-size: 25px;
+}
+
+.price {
+	color: #818BB4;
+	margin-bottom: 70px;
+}
+
+.price-device {
+	display: flex;
+	align-items: center;
+	margin-bottom: 50px;
+}
+
+.price-btn {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border: 1px solid grey;
+	margin-right: 10px;
+	font-size: 15px;
+	/*font-weight: bold;*/
+}
+
+.price-btn:focus {
+	outline: none;
+	box-shadow: 0px 0px 0px 1px;
+}
+
+.price-header {
+	margin: 3px;
+	padding: 0;
+}
+
+.data-made {
+	margin: 2px;
+	padding: 0;
+}
+
+.iphone {
+	color: green;
+}
